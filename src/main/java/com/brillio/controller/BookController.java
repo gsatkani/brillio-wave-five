@@ -29,6 +29,13 @@ public class BookController {
 		return service.getBook();
 	}
 	
+	@GetMapping("/jenkins")
+	public String getMessage() {
+		return "Git- Commit made / Jenkins Automatically Build the project";
+	}
+	
+	
+	
 	
 	
 	
